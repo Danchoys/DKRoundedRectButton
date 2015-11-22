@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                         in the AppStore along with some other Apple's apps
                        DESC
   s.homepage         = "https://github.com/danchoys/DKRoundedRectButton"
-  s.screenshots      = "http://imgur.com/CEmisEa"
+  s.screenshots      = "http://imgur.com/CEmisEa.gif"
   s.license          = 'MIT'
   s.author           = { "Daniil Konoplev" => "danchoys@icloud.com" }
   s.source           = { :git => "https://github.com/danchoys/DKRoundedRectButton.git", :tag => s.version.to_s }
