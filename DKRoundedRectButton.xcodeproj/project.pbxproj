@@ -7,31 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC1829B71C01E6E300BC58CA /* DKRoundedRectButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC1829B61C01E6E300BC58CA /* DKRoundedRectButton.h */; };
-		CC1829B91C01E6E300BC58CA /* DKRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1829B81C01E6E300BC58CA /* DKRoundedRectButton.m */; };
 		CC1829E21C01E7B700BC58CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1829E11C01E7B700BC58CA /* main.m */; };
 		CC1829E51C01E7B700BC58CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1829E41C01E7B700BC58CA /* AppDelegate.m */; };
 		CC1829E81C01E7B700BC58CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1829E71C01E7B700BC58CA /* ViewController.m */; };
 		CC1829EB1C01E7B700BC58CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1829E91C01E7B700BC58CA /* Main.storyboard */; };
 		CC1829ED1C01E7B700BC58CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1829EC1C01E7B700BC58CA /* Assets.xcassets */; };
 		CC1829F01C01E7B700BC58CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1829EE1C01E7B700BC58CA /* LaunchScreen.storyboard */; };
+		CCA5896D1C01EFC400A9F4AF /* DKRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1829B81C01E6E300BC58CA /* DKRoundedRectButton.m */; };
+		CCA5896E1C01F06E00A9F4AF /* DKRoundedRectButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA589651C01EFB300A9F4AF /* DKRoundedRectButton.framework */; };
+		CCA589731C01F21A00A9F4AF /* DKRoundedRectButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1829B61C01E6E300BC58CA /* DKRoundedRectButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		CC1829B11C01E6E300BC58CA /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				CC1829B71C01E6E300BC58CA /* DKRoundedRectButton.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		CCA589711C01F16700A9F4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1829AB1C01E6E300BC58CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA589641C01EFB300A9F4AF;
+			remoteInfo = DKRoundedRectButton;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC1829B31C01E6E300BC58CA /* libDKRoundedRectButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKRoundedRectButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1829B61C01E6E300BC58CA /* DKRoundedRectButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKRoundedRectButton.h; sourceTree = "<group>"; };
 		CC1829B81C01E6E300BC58CA /* DKRoundedRectButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKRoundedRectButton.m; sourceTree = "<group>"; };
 		CC1829DE1C01E7B700BC58CA /* DKRoundedRectButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKRoundedRectButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,17 +41,20 @@
 		CC1829EC1C01E7B700BC58CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1829EF1C01E7B700BC58CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1829F11C01E7B700BC58CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA589651C01EFB300A9F4AF /* DKRoundedRectButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKRoundedRectButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA589691C01EFB300A9F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC1829B01C01E6E300BC58CA /* Frameworks */ = {
+		CC1829DB1C01E7B700BC58CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA5896E1C01F06E00A9F4AF /* DKRoundedRectButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC1829DB1C01E7B700BC58CA /* Frameworks */ = {
+		CCA589611C01EFB300A9F4AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +76,8 @@
 		CC1829B41C01E6E300BC58CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC1829B31C01E6E300BC58CA /* libDKRoundedRectButton.a */,
 				CC1829DE1C01E7B700BC58CA /* DKRoundedRectButtonDemo.app */,
+				CCA589651C01EFB300A9F4AF /* DKRoundedRectButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +87,7 @@
 			children = (
 				CC1829B61C01E6E300BC58CA /* DKRoundedRectButton.h */,
 				CC1829B81C01E6E300BC58CA /* DKRoundedRectButton.m */,
+				CCA5896F1C01F11D00A9F4AF /* Supporting Files */,
 			);
 			path = DKRoundedRectButton;
 			sourceTree = "<group>";
@@ -101,7 +102,6 @@
 				CC1829E91C01E7B700BC58CA /* Main.storyboard */,
 				CC1829EC1C01E7B700BC58CA /* Assets.xcassets */,
 				CC1829EE1C01E7B700BC58CA /* LaunchScreen.storyboard */,
-				CC1829F11C01E7B700BC58CA /* Info.plist */,
 				CC1829E01C01E7B700BC58CA /* Supporting Files */,
 			);
 			path = DKRoundedRectButtonDemo;
@@ -110,31 +110,34 @@
 		CC1829E01C01E7B700BC58CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC1829F11C01E7B700BC58CA /* Info.plist */,
 				CC1829E11C01E7B700BC58CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA5896F1C01F11D00A9F4AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA589691C01EFB300A9F4AF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		CC1829B21C01E6E300BC58CA /* DKRoundedRectButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC1829BC1C01E6E300BC58CA /* Build configuration list for PBXNativeTarget "DKRoundedRectButton" */;
-			buildPhases = (
-				CC1829AF1C01E6E300BC58CA /* Sources */,
-				CC1829B01C01E6E300BC58CA /* Frameworks */,
-				CC1829B11C01E6E300BC58CA /* CopyFiles */,
+/* Begin PBXHeadersBuildPhase section */
+		CCA589621C01EFB300A9F4AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA589731C01F21A00A9F4AF /* DKRoundedRectButton.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DKRoundedRectButton;
-			productName = DKRoundedRectButton;
-			productReference = CC1829B31C01E6E300BC58CA /* libDKRoundedRectButton.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
 		CC1829DD1C01E7B700BC58CA /* DKRoundedRectButtonDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1829F21C01E7B700BC58CA /* Build configuration list for PBXNativeTarget "DKRoundedRectButtonDemo" */;
@@ -146,11 +149,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				CCA589721C01F16700A9F4AF /* PBXTargetDependency */,
 			);
 			name = DKRoundedRectButtonDemo;
 			productName = DKRoundedRectButtonDemo;
 			productReference = CC1829DE1C01E7B700BC58CA /* DKRoundedRectButtonDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CCA589641C01EFB300A9F4AF /* DKRoundedRectButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA5896A1C01EFB300A9F4AF /* Build configuration list for PBXNativeTarget "DKRoundedRectButton" */;
+			buildPhases = (
+				CCA589601C01EFB300A9F4AF /* Sources */,
+				CCA589611C01EFB300A9F4AF /* Frameworks */,
+				CCA589621C01EFB300A9F4AF /* Headers */,
+				CCA589631C01EFB300A9F4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKRoundedRectButton;
+			productName = DKRoundedRectButton;
+			productReference = CCA589651C01EFB300A9F4AF /* DKRoundedRectButton.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -161,10 +183,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Daniil Konoplev";
 				TargetAttributes = {
-					CC1829B21C01E6E300BC58CA = {
+					CC1829DD1C01E7B700BC58CA = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					CC1829DD1C01E7B700BC58CA = {
+					CCA589641C01EFB300A9F4AF = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -182,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC1829B21C01E6E300BC58CA /* DKRoundedRectButton */,
+				CCA589641C01EFB300A9F4AF /* DKRoundedRectButton */,
 				CC1829DD1C01E7B700BC58CA /* DKRoundedRectButtonDemo */,
 			);
 		};
@@ -199,17 +221,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CC1829AF1C01E6E300BC58CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		CCA589631C01EFB300A9F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1829B91C01E6E300BC58CA /* DKRoundedRectButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		CC1829DA1C01E7B700BC58CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,7 +241,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CCA589601C01EFB300A9F4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA5896D1C01EFC400A9F4AF /* DKRoundedRectButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA589721C01F16700A9F4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA589641C01EFB300A9F4AF /* DKRoundedRectButton */;
+			targetProxy = CCA589711C01F16700A9F4AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CC1829E91C01E7B700BC58CA /* Main.storyboard */ = {
@@ -278,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -315,28 +352,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CC1829BD1C01E6E300BC58CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CC1829BE1C01E6E300BC58CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -345,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DKRoundedRectButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danchoys.DKRoundedRectButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,9 +376,55 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DKRoundedRectButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danchoys.DKRoundedRectButtonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCA5896B1C01EFB300A9F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKRoundedRectButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danchoys.DKRoundedRectButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCA5896C1C01EFB300A9F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKRoundedRectButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danchoys.DKRoundedRectButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -374,20 +440,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC1829BC1C01E6E300BC58CA /* Build configuration list for PBXNativeTarget "DKRoundedRectButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC1829BD1C01E6E300BC58CA /* Debug */,
-				CC1829BE1C01E6E300BC58CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CC1829F21C01E7B700BC58CA /* Build configuration list for PBXNativeTarget "DKRoundedRectButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC1829F31C01E7B700BC58CA /* Debug */,
 				CC1829F41C01E7B700BC58CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA5896A1C01EFB300A9F4AF /* Build configuration list for PBXNativeTarget "DKRoundedRectButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA5896B1C01EFB300A9F4AF /* Debug */,
+				CCA5896C1C01EFB300A9F4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

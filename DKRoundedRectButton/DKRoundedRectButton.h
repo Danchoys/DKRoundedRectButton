@@ -22,6 +22,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for DKRoundedRectButton.
+FOUNDATION_EXPORT double DKRoundedRectButtonVersionNumber;
+
+//! Project version string for DKRoundedRectButton.
+FOUNDATION_EXPORT const unsigned char DKRoundedRectButtonVersionString[];
+
 /// A button that mimics the behavior of the buy button found in the AppStore app.
 /// This class may be subclassed to add additional styling. When using this class
 /// from the interface builder, set the `type` selector to `Custom`.
