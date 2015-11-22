@@ -1,3 +1,4 @@
+//
 // DKRoundedRectButton.m
 // Copyright (c) 2015 Daniil Konoplev
 //
@@ -24,7 +25,7 @@
 static const CGFloat kAnimationDuration = 0.25f;
 static const CGFloat kDefaultBorderWidth = 1;
 static const CGFloat kDefaultCornerRadius = 5;
-static const BOOL kDefaultFillsBorders = NO;
+static const BOOL    kDefaultFillsBorders = NO;
 
 @implementation DKRoundedRectButton
 
