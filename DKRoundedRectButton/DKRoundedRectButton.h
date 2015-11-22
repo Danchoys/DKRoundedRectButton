@@ -1,3 +1,4 @@
+//
 // DKRoundedRectButton.h
 // Copyright (c) 2015 Daniil Konoplev
 //
@@ -21,26 +22,29 @@
 
 #import <UIKit/UIKit.h>
 
-/// A button that mimics the behavior of the buy button,
-/// found in the AppStore app.
+/// A button that mimics the behavior of the buy button found in the AppStore app.
+/// This class may be subclassed to add additional styling. When using this class
+/// from the interface builder, set the `type` selector to `Custom`.
 IB_DESIGNABLE @interface DKRoundedRectButton : UIButton
 
 /// The button's corner radius.
+/// Defaults to 5.0.
 @property (nonatomic) IBInspectable CGFloat cornerRadius;
 
 /// The button's border's width.
+/// Defaults to 1.0.
 @property (nonatomic) IBInspectable CGFloat borderWidth;
 
 /// The color of the button's text, when it is in such a
 /// state, that the borders are filled with the tint color.
-/// Default value is white color.
+/// Defaults to [UIColor whiteColor].
 @property (nonatomic) IBInspectable UIColor *filledStateTextColor;
 
 /// Defines whether the button should fill its borders
-/// with the tint color in the Normal state.
+/// with the tint color in the `UIControlStateNormal` state.
 @property (nonatomic) IBInspectable BOOL fillsBorders;
 
-/// Call this method to force the button's style update.
+/// Forces the button's style update.
 - (void)setNeedsUpdateButtonStyle;
 
 /// This is a customization point. Override in a subclass
