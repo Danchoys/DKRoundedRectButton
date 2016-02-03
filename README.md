@@ -6,7 +6,7 @@
 
 <p align="center"><img src="http://imgur.com/CEmisEa.gif"/></p>
 
-A custom UIButton that has the look and feeling of the rounded rect buttons, seen in the AppStore along with some other Apple's apps.
+A custom UIButton that has the look and feel of the rounded rect buttons, seen in the AppStore along with some other Apple's apps.
 
 This button is marked IB_DESIGNABLE and can be configured from the Interface Builder. When you do so, take note of two things:
 
